@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style/style.css">
+            <script src="../j query/script.js"></script>
+            <style>
+              * {
+                box-sizing: border-box;
+              }
+              
+              .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+              }
+              
+              /* Clearfix (clear floats) */
+              .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+              .parts{
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+              }
+              /* Clearfix (clear floats) */
+              .part::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+              .slider{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+                width : 70%;
+                height: 400px;
+                background:url(../images/122791212_3619952754731340_6963511625955827143_n.jpg) ;
+                animation: slide 30s infinite;
+                
+
+
+
+              }
+              @keyframes slide{
+                25%{background:url(../images/84811543_2908912019168754_2259920007704084480_n.jpg) ;} 
+                50%{background:url(../images/243448960_226766666141436_4694397921496378646_n.jpg) ;} 
+                75%{background:url(../images/122791212_3619952754731340_6963511625955827143_n.jpg) ;} 
+                100%{background:url(../images/122791212_3619952754731340_6963511625955827143_n.jpg) ;} 
+              
+              
+              }
+
+
+              </style>
+        <title>
+          LTBC HOME PAGE  
+        </title>
+    </head>
+    
+    <body>
+
+<!-- HEADER STARTS-->
+<header >
+  <h1> 
+      Luanshya Technical and Business College  <br/>
+      <small><i>Technology is the Base for Development</small></i>
+ </h1>
+</header> 
+
+<!--NAV MENU-->
+
+<div id="navbar">
+<ul>
+  <li><a href="HOME PAGE.html">Home</a></li>
+  <li class="dropdown">
+    <a class="dropbtn">ABOUT US</a>
+    <div class="dropdown-content">
+      <a href="VISSION AND MISSION.html">VISION & MISSION</a>
+      <a href="BOARD MEMBERS.html">BOARD MEMBERS</a>
+      <a href="MANAGEMENT.html">MANAGEMENT</a>
+      <a href="BOARD MEMBERS.html">BOARD MEMBERS</a>
+  </li>
+  <li class="dropdown">
+        <a  class="dropbtn">PROGRAMMES</a>
+        <div class="dropdown-content">
+          <a href="FULL TIME PROGRAMS.html">FULL TIME PROGRAMME</a>
+          <a href="DISTANCE PROGRAMES.html">DISTANCE LEARNING</a>
+          <a href="MANAGEMENT.html">MANAGEMENT</a>
+          <a href="SHORT COURSEST.html">SHORT INTENSIVE COURSES</a>
+  </li>
+          <li><a href="DEPARTMENTS.html">DEPARTMENTS</a></li>
+          <li><a href="APLY.html">2022 APPLICATIONS</a></li>
+          <li><a href="CONTACT US.html">CONTACT US</a></li>  
+          <li><a href="ANNOUNCEMENT.html">ANNOUNCEMENTS</a></li>
+          <li><a href="DRIVING SCHOOL.html">DRIVING SCHOOL</a></li>
+          <li><a href="login.html">LOGIN </a></li>
+   </ul>
+  </div>
+  <section>
+<br/>
+  <div class="slider">
+
+  </div>
+</section>
+<br/>
+  <div class="row">
+    <div class="column">
+        <video controls>
+    <source src="../videos/128802936_191797152490712_1784445608082343985_n.mp4" type="video/mp4">
+    </div>
+    <div class="column">
+      <video  controls>
+    <source src="../videos/128802936_191797152490712_1784445608082343985_n.mp4" type="video/mp4">
+    </div>
+    <div class="column">
+        <video  controls>
+    <source src="../videos/128802936_191797152490712_1784445608082343985_n.mp4" type="video/mp4">
+    </div>
+  </div>
+
+    
+  </video>
+    <div class="row">
+      <div class="column">
+        <img src="../images/122791212_3619952754731340_6963511625955827143_n.jpg" alt="Snow" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="../images/122791212_3619952754731340_6963511625955827143_n.jpg" alt="Forest" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="../images/122791212_3619952754731340_6963511625955827143_n.jpg" alt="Mountains" style="width:100%">
+      </div>
+    </div>
+  
+  <div class="part">
+  <h1>OUR SERVICES</h1>
+  <div class="parts">
+<h2>Bricklaying and Carpentry</h2>
+We offer Bricklaying and plastering as well as Carpentry, Joinery and Roofing services to the public.
+</div>
+
+<div class="parts">
+<h2>Information Communication Technology</h2>
+We offer Tailor made ICT services in association with the University of Zambia to the Public. 
+</div>
+
+<div class="parts">
+<h2>Driving School</h2>
+The college has a Driving School which offers driving lessons to individuals and companies.
+ </div>
+ </div>
+       <br>   
+              <hr/>       
+              <footer>
+                © Copyright ANTHONY MWABA 2021  <br/>
+                CONTACT ANTHONYMWABA ON GMAIL ANTHONYMWABA9@GMAIL.COM 
+    
+            </footer>
+        <script>
+          window.onscroll = function() {myFunction()};
+          
+          var navbar = document.getElementById("navbar");
+          var sticky = navbar.offsetTop;
+          
+          function myFunction() {
+            if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky")
+            } else {
+              navbar.classList.remove("sticky");
+            }
+          }
+          </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+          
+
+         
+           
+       
